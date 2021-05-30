@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LogIn">
+        <activity android:name=".TeacherTimeRestrictions"></activity>
+        <activity android:name=".StudentPick" />
+        <activity android:name=".TeacherIndivStudents" />
+        <activity android:name=".TeacherSummary" />
+        <activity android:name=".TeacherViewStudents" />
+        <activity android:name=".StudentHomePage" />
+        <activity android:name=".StudentSignUp" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/border" />
+
+        <activity android:name=".StudAttPage" />
+        <activity android:name=".TeacherPerSubPage" />
+        <activity android:name=".TeacherAddSubject" />
+        <activity android:name=".TeacherHomePage" />
+        <activity android:name=".StudentLogin" />
+        <activity android:name=".TeacherLogIn" />
+        <activity android:name=".TeacherSignUp" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
